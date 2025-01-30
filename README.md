@@ -53,9 +53,9 @@ Each generated test case follows this structured format:
 
 ## 📂 Output
 
-- The generated structured JSON output is stored in the `output-files` folder.
+- The generated structured JSON output for the test-cases is stored in the `output-files` folder.
 - You can also directly generate this file after running the code in the Colab notebook.
-
+- I have also uploaded the description-json( descriptions of screenshots by gemini) file . [ This is a cleaned up json response , done manually]
 ---
 
 ## 🚀 Running the Notebook

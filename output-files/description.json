@@ -1,0 +1,266 @@
+[{
+  "description": "This is a screenshot of the Amazon.com homepage.  The main focus is a banner advertising \"Shop Books\" with an image of stacked books. Below the banner are several sections showcasing different product categories.  These include: \"Pick up where you left off\" (showing scarves), \"Shop for your home essentials\" (showing cleaning tools and home storage), \"Get your game on\" (showing a gaming PC), and \"Top categories in Kitchen appliances\" (showing a pressure cooker). The top navigation bar contains standard Amazon features such as search, account management, returns, and cart. The user's location is set to Pune, India. There is also a notification that Google Meet is sharing a window. ",
+  "items": [
+    {
+      "name": "Amazon logo",
+      "type": "Logo",
+      "location": "Top left corner"
+    },
+    {
+      "name": "Navigation Bar",
+      "type": "Navigation",
+      "items": [
+        "All",
+        "Rufus (a possible personalized recommendation)",
+        "Today's Deals",
+        "Buy Again",
+        "Customer Service",
+        "Registry",
+        "Gift Cards",
+        "Sell",
+        "Search Bar",
+        "Language selector (EN)",
+        "Hello, Sanskruti (User's account)",
+        "Account & Lists",
+        "Returns & Orders",
+        "Cart"
+
+      ]
+    },
+    {
+      "name": "Location Selector",
+      "type": "Input",
+      "value": "Deliver to Sanskruti\nPune 411005"
+    },
+    {
+      "name": "Shop Books Banner",
+      "type": "Banner",
+      "text": "Shop Books\nexplore titles",
+      "image": "Stacked books"
+    },
+    {
+      "name": "Section: Pick up where you left off",
+      "type": "Product Section",
+      "items": [
+        "Salutto Women 1... (Scarf)",
+        "Salutto Women 1... (Scarf)"
+      ]
+    },
+    {
+      "name": "Section: Shop for your home essentials",
+      "type": "Product Section",
+      "items": [
+        "Cleaning Tools",
+        "Home Storage"
+      ]
+    },
+    {
+      "name": "Section: Get your game on",
+      "type": "Product Section",
+      "items": [
+        "Gaming PC"
+      ]
+    },
+    {
+      "name": "Section: Top categories in Kitchen appliances",
+      "type": "Product Section",
+      "items": [
+        "Cooker (Pressure Cooker)"
+      ]
+    },
+    {
+      "name": "Message",
+      "type": "Message",
+      "text": "You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. Click here to go to amazon.in"
+    },
+        {
+      "name": "Google Meet Notification",
+      "type": "Notification",
+      "text": "meet.google.com is sharing a window.  Stop sharing Hide"
+    }
+  ]
+} ,
+
+{
+  "description": "This is a screenshot of the Amazon India homepage.  The search bar is currently showing search suggestions for \"laptop\" after a search was initiated. The page features several sections, including recommendations based on past purchases (\"Pick up where you left off\"), suggestions for home essentials, gaming products, and kitchen appliances. The top navigation bar includes options for all categories, Today's Deals, and Buy Again, along with user account information (Hello, Sanskruti), returns, and orders.",
+  "items": [
+    {
+      "type": "search bar",
+      "text": "laptop",
+      "suggestions": ["laptop stand", "laptop touchscreen", "laptop dell", "laptop touch screen", "laptop charger", "laptop bag", "laptop lenovo", "hp laptop", "laptops on sale", "laptop 16"]
+    },
+    {
+      "type": "navigation",
+      "items": ["All", "Rufus", "Today's Deals", "Buy Again"]
+    },
+    {
+      "type": "user info",
+      "items": ["Hello, Sanskruti", "Account & Lists", "Returns", "& Orders", "Cart (3 items)"]
+    },
+    {
+      "type": "section",
+      "title": "Pick up where you left off",
+      "items": [
+        {
+          "image": "Lenovo V15 Business laptop",
+          "description": "Lenovo V15 Busin..."
+        },
+        {
+          "image": "HP 14 Laptop",
+          "description": "HP 14 Laptop, Int..."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Shop for your home essentials",
+      "items": [
+        {
+          "image": "Cleaning Tools",
+          "description": "Cleaning Tools"
+        },
+        {
+          "image": "Home Storage",
+          "description": "Home Storage"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Get your game on",
+      "items": [
+        {
+          "image": "Gaming PC",
+          "description": "Gaming PC (image of a tower)"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Top categories in Kitchen appliances",
+      "items": [
+        {
+          "image": "Pressure Cooker",
+          "description": "Pressure Cooker"
+        }
+      ]
+    },
+        {
+      "type": "location",
+      "text": "Deliver to Sanskruti Pune 411005"
+    },
+    {
+      "type": "language",
+      "text": "EN"
+    }
+
+  ]
+} ,
+
+{
+  "description": "This is an Amazon product page for a JOYEKY laptop stand. The stand is grey, foldable, portable, and has a 360° rotating base. It's designed for laptops with screen sizes between 10 and 16 inches. The page shows various views of the stand, customer ratings (4.7 stars),  pricing options, and compatible devices.  There are also options to see similar items, view all buying options, and add the product to a list. The user's location is set to Sanskruti, Pune 411005.",
+  "items": [
+    "Search bar with 'laptop stand' as the search term",
+    "Amazon logo",
+    "User account information (Hello, Sanskruti)",
+    "Cart icon",
+    "Navigation menu (All, Rufus, Today's Deals, Buy Again, Customer Service, Registry, Gift Cards, Sell)",
+    "Back to results link",
+    "Multiple images of the laptop stand from different angles",
+    "Videos of the laptop stand (11 videos)",
+    "360° view of the laptop stand",
+    "Main product image showing a laptop on the stand",
+    "Product title: 'Laptop Stand for Desk, Adjustable Computer Stand with 360° Rotating Base, Ergonomic Laptop Riser for Collaborative Work, Foldable & Portable Laptop Stand, fits for All 10-16\" Laptops'",
+    "Seller information: 'Visit the JOYEKY Store'",
+    "Customer ratings (4.7 stars) and number of reviews (1,919)",
+    "Amazon's Choice badge",
+    "Color options (Grey)",
+    "Multiple images of the laptop stand showing different angles and color options",
+    "Pricing information (INR 3,114.2 - 3,460.4)",
+    "Brand: JOYEKY",
+    "Color: Grey",
+    "Form Factor: Tower",
+    "Compatible Devices: Laptops",
+    "Compatible Phone Models: MacBook 12 inch/13 inch, MacBook Air 13 inch, MacBook Pro 13 inch/14inch/16 inch, Dell XPS HP Lenovo Acer Chromebook and more All 10-16 inches...",
+    "'See more' link for compatible models",
+    "No featured offers available message",
+    "'Learn more' link",
+    "Delivery location: Sanskruti - Pune 411005",
+    "'See Similar Items' button",
+    "'See All Buying Options' button",
+    "'Add to List' button",
+    "'Roll over image to zoom in' message"
+  ]
+} ,
+
+
+{
+  "description": "This is an Amazon product page for a JOYEKY Laptop Stand for Desk. The stand is adjustable and features a 360° rotating base.  The page shows the product with a laptop on it, along with various product details, customer ratings, pricing information, color options, and a message indicating the item cannot be shipped to the selected delivery location.",
+  "items": [
+    {
+      "item": "JOYEKY Laptop Stand for Desk, Adjustable Computer Stand",
+      "description": "Main product displayed prominently on the page. It's a grey adjustable laptop stand with a 360° rotating base.",
+      "price": "INR 3,114.25",
+      "rating": "4.7 stars (1,919 ratings)",
+      "availability": "Not available for the selected delivery location"
+    },
+    {
+      "item": "Color Options",
+      "description": "Multiple color options for the laptop stand are available (at least grey is shown)."
+    },
+    {
+      "item": "Price Variations",
+      "description": "Prices vary depending on the color options ranging from INR 3,114.25 to INR 3,460.4"
+    },
+    {
+      "item": "Seller Information",
+      "description": "Sold by Jiexunke Electronic through Amazon.com"
+    },
+    {
+      "item": "Customer Reviews",
+      "description": "Positive reviews from 1038 ratings, 95% positive over the last 12 months."
+    },
+    {
+      "item": "Alternative Products",
+      "description": "Images of similar products in pink and gold are displayed as alternative items."
+    },
+    {
+      "item": "Product Specifications",
+      "description": "Brand: JOYEKY, Color: Grey, Form Factor: Tower, Compatible Devices: Laptops, Compatible Phone Models: MacBook 12 inch/13 inch, MacBook Pro 13 inch/14 inch, Lenovo Acer Chromebook and others"
+    },
+    {
+      "item": "Add to Cart",
+      "description": "Button to add the product to shopping cart."
+    },
+    {
+      "item": "Coupon",
+      "description": "A 10% coupon is available."
+    },
+    {
+      "item": "Amazon Navigation Bar",
+      "description": "The Amazon website top navigation bar is visible, with sections like 'All', 'Today's Deals', 'Customer Service', etc."
+    },
+    {
+      "item": "Product Images and Videos",
+      "description": "Several product images and 11 videos are available"
+    }
+  ]
+} ,
+
+{
+  "description": "This is a post-purchase confirmation screen showing that a grey laptop stand has been added to the user's cart.  The screen displays a picture of the laptop stand with a laptop on it, along with a confirmation message and the color of the item.",
+  "items": [
+    {
+      "item": "Laptop Stand with Laptop",
+      "details": "Image of a grey aluminum laptop stand with a laptop placed on it. The laptop is displaying a landscape image."
+    },
+    {
+      "item": "Added to Cart Confirmation",
+      "details": "A green checkmark icon next to the text 'Added to cart'."
+    },
+    {
+      "item": "Color Information",
+      "details": "Text specifying the color of the added item: 'Color: Grey'"
+    }
+  ]
+}]
