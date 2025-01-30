@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Apply 10%",
+        "type": "checkbox",
+        "bbox": {
+            "x": 798,
+            "y": 340,
+            "width": 84,
+            "height": 20
+        }
+    },
+    {
+        "name": "Add to Cart",
+        "type": "button",
+        "bbox": {
+            "x": 928,
+            "y": 335,
+            "width": 93,
+            "height": 28
+        }
+    },
+    {
+        "name": "See more",
+        "type": "button",
+        "bbox": {
+            "x": 511,
+            "y": 965,
+            "width": 70,
+            "height": 16
+        }
+    }
+]

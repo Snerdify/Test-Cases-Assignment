@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Search",
+        "type": "text field",
+        "bbox": {
+            "x": 265,
+            "y": 26,
+            "width": 120,
+            "height": 28
+        }
+    },
+    {
+        "name": "All",
+        "type": "dropdown",
+        "bbox": {
+            "x": 200,
+            "y": 26,
+            "width": 50,
+            "height": 28
+        }
+    },
+    {
+        "name": "Search Icon",
+        "type": "button",
+        "bbox": {
+            "x": 388,
+            "y": 26,
+            "width": 28,
+            "height": 28
+        }
+    },
+    {
+        "name": "EN",
+        "type": "dropdown",
+        "bbox": {
+            "x": 665,
+            "y": 26,
+            "width": 40,
+            "height": 28
+        }
+    },
+    {
+        "name": "Account & Lists",
+        "type": "dropdown",
+        "bbox": {
+            "x": 710,
+            "y": 26,
+            "width": 120,
+            "height": 28
+        }
+    },
+    {
+        "name": "Returns",
+        "type": "button",
+        "bbox": {
+            "x": 838,
+            "y": 26,
+            "width": 65,
+            "height": 28
+        }
+    },
+    {
+        "name": "Cart",
+        "type": "button",
+        "bbox": {
+            "x": 912,
+            "y": 26,
+            "width": 28,
+            "height": 28
+        }
+    },
+    {
+        "name": "laptop stand",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 70,
+            "width": 110,
+            "height": 18
+        }
+    },
+    {
+        "name": "laptop touchscreen",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 90,
+            "width": 140,
+            "height": 18
+        }
+    },
+    {
+        "name": "laptop dell",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 110,
+            "width": 95,
+            "height": 18
+        }
+    },
+    {
+        "name": "laptop touch screen",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 130,
+            "width": 140,
+            "height": 18
+        }
+    },
+    {
+        "name": "laptop charger",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 150,
+            "width": 120,
+            "height": 18
+        }
+    },
+    {
+        "name": "laptop bag",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 170,
+            "width": 95,
+            "height": 18
+        }
+    },
+    {
+        "name": "laptop lenovo",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 190,
+            "width": 115,
+            "height": 18
+        }
+    },
+    {
+        "name": "hp laptop",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 210,
+            "width": 90,
+            "height": 18
+        }
+    },
+    {
+        "name": "laptops on sale",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 230,
+            "width": 120,
+            "height": 18
+        }
+    },
+    {
+        "name": "laptop 16",
+        "type": "button",
+        "bbox": {
+            "x": 297,
+            "y": 250,
+            "width": 85,
+            "height": 18
+        }
+    }
+]

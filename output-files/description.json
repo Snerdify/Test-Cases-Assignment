@@ -248,19 +248,74 @@
 } ,
 
 {
-  "description": "This is a post-purchase confirmation screen showing that a grey laptop stand has been added to the user's cart.  The screen displays a picture of the laptop stand with a laptop on it, along with a confirmation message and the color of the item.",
-  "items": [
-    {
-      "item": "Laptop Stand with Laptop",
-      "details": "Image of a grey aluminum laptop stand with a laptop placed on it. The laptop is displaying a landscape image."
-    },
-    {
-      "item": "Added to Cart Confirmation",
-      "details": "A green checkmark icon next to the text 'Added to cart'."
-    },
-    {
-      "item": "Color Information",
-      "details": "Text specifying the color of the added item: 'Color: Grey'"
-    }
-  ]
-}]
+    "description": "This is the Amazon home screen showing a user's recently added items to their cart and product recommendations based on their shopping trends.  The top navigation bar displays standard Amazon options like account information, cart, and search functionality. Below the navigation is the recently added item display, showing an item that has been added to the cart with the option to proceed to checkout or view the cart. Below this section is a selection of recommended laptops with pricing, specifications, and customer reviews.",
+    "items": [
+      {
+        "item": "Top Navigation Bar",
+        "details": [
+          "Amazon Logo",
+          "Delivery location: Sanskruti, Pune 411005",
+          "All (Category filter)",
+          "Search Bar",
+          "Account & Lists",
+          "Returns & Orders",
+          "Cart (with item count)",
+          "Subtotal: $1,178.05",
+          "Hello, Sanskruti",
+          "EN (language selector)"
+        ]
+      },
+      {
+        "item": "Recently Added to Cart",
+        "details": [
+          "Checkmark indicating item added to cart",
+          "Item Name: TPV Laptop Computer",
+          "Specifications: 15.6\" FHD Display, 16GB RAM, 512GB SSD, MS Office...",
+          "Price: $309.99",
+          "Rating: 4.3 stars (72 reviews)",
+          "Prime badge",
+          "Color: Grey"
+        ]
+      },
+      {
+        "item": "Cart Summary",
+        "details": [
+          "Cart Subtotal: $1,178.05",
+          "Button: Proceed to checkout (6 items)",
+          "Button: Go to Cart"
+        ]
+      },
+      {
+        "item": "Product Recommendations",
+        "details": [
+          "Heading: Recommended based on your shopping trends",
+          "Sponsored label",
+          "Multiple laptop listings including images, specifications (display size, processor, RAM, SSD), prices, ratings, and number of reviews.  Each listing is from different brands and models.",
+          "Left and Right navigation arrows to cycle through products"
+  
+        ]
+      },
+      {
+        "item": "Other Items in Cart (Side Bar)",
+        "details": [
+          "Image of a laptop stand",
+          "Price: $35.98",
+          "Quantity Selector",
+          "Add to Cart Button",
+          "Image of a book",
+          "Title: Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow",
+          "Price: $49.99",
+          "Stock Availability: Only 5 left in stock (more on the way)",
+          "Quantity Selector",
+          "Add to Cart Button",
+          "Image of another laptop",
+          "Price: $699.00",
+          "Quantity Selector",
+          "Add to Cart Button",
+          "Image of another laptop"
+  
+        ]
+      }
+    ]
+  }
+]

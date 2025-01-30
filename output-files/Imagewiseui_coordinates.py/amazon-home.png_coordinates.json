@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Search Amazon",
+        "type": "text field",
+        "bounding_box": {
+            "x": 265,
+            "y": 81,
+            "width": 180,
+            "height": 28
+        }
+    },
+    {
+        "name": "All",
+        "type": "dropdown",
+        "bounding_box": {
+            "x": 200,
+            "y": 81,
+            "width": 55,
+            "height": 28
+        }
+    },
+    {
+        "name": "Deliver to Sanskruti Pune 411005",
+        "type": "text",
+        "bounding_box": {
+            "x": 100,
+            "y": 81,
+            "width": 180,
+            "height": 28
+        }
+    },
+    {
+        "name": "Account & Lists",
+        "type": "dropdown",
+        "bounding_box": {
+            "x": 750,
+            "y": 81,
+            "width": 120,
+            "height": 28
+        }
+    },
+    {
+        "name": "Cart",
+        "type": "button",
+        "bounding_box": {
+            "x": 920,
+            "y": 81,
+            "width": 40,
+            "height": 28
+        }
+    },
+    {
+        "name": "Stop sharing",
+        "type": "button",
+        "bounding_box": {
+            "x": 530,
+            "y": 930,
+            "width": 100,
+            "height": 20
+        }
+    },
+    {
+        "name": "Hide",
+        "type": "button",
+        "bounding_box": {
+            "x": 635,
+            "y": 930,
+            "width": 40,
+            "height": 20
+        }
+    },
+    {
+        "name": "All",
+        "type": "button",
+        "bounding_box": {
+            "x": 45,
+            "y": 125,
+            "width": 40,
+            "height": 20
+        }
+    },
+    {
+        "name": "Rufus",
+        "type": "button",
+        "bounding_box": {
+            "x": 90,
+            "y": 125,
+            "width": 50,
+            "height": 20
+        }
+    },
+    {
+        "name": "Today's Deals",
+        "type": "button",
+        "bounding_box": {
+            "x": 140,
+            "y": 125,
+            "width": 90,
+            "height": 20
+        }
+    },
+    {
+        "name": "Buy Again",
+        "type": "button",
+        "bounding_box": {
+            "x": 230,
+            "y": 125,
+            "width": 70,
+            "height": 20
+        }
+    },
+    {
+        "name": "Customer Service",
+        "type": "button",
+        "bounding_box": {
+            "x": 300,
+            "y": 125,
+            "width": 110,
+            "height": 20
+        }
+    },
+    {
+        "name": "Registry",
+        "type": "button",
+        "bounding_box": {
+            "x": 410,
+            "y": 125,
+            "width": 60,
+            "height": 20
+        }
+    },
+    {
+        "name": "Gift Cards",
+        "type": "button",
+        "bounding_box": {
+            "x": 470,
+            "y": 125,
+            "width": 70,
+            "height": 20
+        }
+    },
+    {
+        "name": "Sell",
+        "type": "button",
+        "bounding_box": {
+            "x": 540,
+            "y": 125,
+            "width": 30,
+            "height": 20
+        }
+    }
+]

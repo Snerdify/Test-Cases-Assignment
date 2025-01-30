@@ -3,70 +3,82 @@
         "Image": 1,
         "Test Cases": [
             {
-                "Title": "Verify Homepage Navigation",
-                "Objective": "To ensure all navigation links on the Amazon.com homepage are functional and lead to the correct pages.",
+                "Title": "Homepage Navigation and Functionality",
+                "Objective": "Verify the functionality and responsiveness of the top navigation bar and key homepage sections.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Open the Amazon.com website.",
+                            "Action": "Open the Amazon.com homepage in a browser.",
                             "Data": "https://www.amazon.com",
-                            "Expected Result": "The Amazon homepage is displayed correctly."
-                        },
+                            "Expected Result": "The Amazon homepage loads successfully, displaying all elements as described in the screenshot."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Click on each navigation link in the top navigation bar (All, Today's Deals, Buy Again, Customer Service, Registry, Gift Cards, Sell).",
+                            "Action": "Click on different navigation options (e.g., 'Today's Deals', 'Customer Service', 'Account & Lists').",
                             "Data": "None",
-                            "Expected Result": "Each link should navigate to the corresponding section/page on Amazon.com."
-                        },
+                            "Expected Result": "The corresponding pages load correctly, and the navigation bar remains functional throughout the process."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Verify the user account information section (Hello, Sanskruti, Account & Lists, Returns & Orders, Cart) displays correctly.",
+                            "Action": "Hover over the 'All' categories dropdown. ",
                             "Data": "None",
-                            "Expected Result": "User's name and account links should be visible and functional."
+                            "Expected Result": "The dropdown menu with all categories appears, allowing users to browse different product categories."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Homepage Banner and Sections",
-                "Objective": "To ensure all banner advertisements and product sections on the Amazon.com homepage are displayed correctly and functional.",
+                "Title": "Homepage Section Verification",
+                "Objective": "Verify that all product sections on the homepage are displayed correctly and contain expected information.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Open Amazon.com homepage.",
-                            "Data": "https://www.amazon.com",
-                            "Expected Result": "Homepage loads successfully."
-                        },
-                        "Step 2": {
-                            "Action": "Verify the \"Shop Books\" banner is displayed with relevant content and a call to action.",
+                            "Action": "Observe the 'Pick up where you left off', 'Shop for your home essentials', 'Get your game on', and 'Top categories in Kitchen appliances' sections.",
                             "Data": "None",
-                            "Expected Result": "Banner is visible, and text/images are clear and appropriate."
-                        },
+                            "Expected Result": "Each section is visible, displays relevant product images and descriptions, and loads without errors."
+                        }
+                    },
+                    {
+                        "Step 2": {
+                            "Action": "Click on any product displayed in the sections.",
+                            "Data": "None",
+                            "Expected Result": "The page navigates to the corresponding product page, displaying the selected item details and related information."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Click on any product from the four featured sections (\"Pick up where you left off\", \"Shop for your home essentials\", \"Get your game on\", \"Top categories in Kitchen appliances\").",
-                            "Data": "Any product from a featured section.",
-                            "Expected Result": "The page redirects to the selected product's page successfully."
+                            "Action": "Verify the shopping cart icon and its count.",
+                            "Data": "None",
+                            "Expected Result": "The cart icon displays the correct number of items currently present in the cart."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Amazon.in Redirect",
-                "Objective": "To ensure the message prompting users to shop on Amazon.in for faster delivery is displayed correctly and the link is functional.",
+                "Title": "User Location and Site Switching",
+                "Objective": "Verify that the user location is correctly displayed and that switching between .com and .in sites functions correctly.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Open Amazon.com homepage.",
-                            "Data": "https://www.amazon.com",
-                            "Expected Result": "Homepage loads successfully."
-                        },
+                            "Action": "Verify the displayed user location.",
+                            "Data": "Pune 411005, India",
+                            "Expected Result": "The location is accurately reflected as 'Pune 411005, India'."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify the message suggesting shopping on Amazon.in for faster delivery is displayed.",
+                            "Action": "Locate and click on the message prompting the user to switch to the .in site for local delivery.",
                             "Data": "None",
-                            "Expected Result": "Message is visible and clearly communicates the suggestion."
-                        },
+                            "Expected Result": "The page redirects the user to the corresponding Amazon.in site."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Click on the Amazon.in link (if present).",
-                            "Data": "None",
-                            "Expected Result": "The page redirects to the Amazon.in homepage successfully."
+                            "Action": "Verify that the account information in the top right corner is correctly displayed.",
+                            "Data": "Hello, Sanskruti",
+                            "Expected Result": "The user's name, 'Sanskruti', or relevant account identifier is visible."
                         }
                     }
                 ]
@@ -77,70 +89,82 @@
         "Image": 2,
         "Test Cases": [
             {
-                "Title": "Verify Search Functionality",
-                "Objective": "To validate the search bar's auto-suggest feature and search results on the Amazon India app.",
+                "Title": "Amazon India App Search Functionality",
+                "Objective": "To verify the search functionality within the Amazon India app.",
                 "Test Steps": [
                     {
                         "Step 1": {
                             "Action": "Open the Amazon India app.",
                             "Data": "None",
-                            "Expected Result": "App opens successfully."
-                        },
+                            "Expected Result": "The Amazon India app home screen loads successfully."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Type 'laptop' in the search bar.",
+                            "Action": "Enter 'laptop' in the search bar.",
                             "Data": "laptop",
-                            "Expected Result": "Auto-suggest results related to 'laptop' appear."
-                        },
+                            "Expected Result": "The search bar displays 'laptop' and shows relevant search suggestions below."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Select a suggestion (e.g., 'laptop stand').",
+                            "Action": "Select a search suggestion (e.g., 'laptop stand').",
                             "Data": "laptop stand",
-                            "Expected Result": "The app displays relevant search results for 'laptop stand'."
+                            "Expected Result": "The app displays search results related to 'laptop stand'."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Personalized Recommendations",
-                "Objective": "To validate that the 'Pick up where you left off' section displays recently viewed items correctly.",
+                "Title": "App Homepage Section Validation",
+                "Objective": "Verify the display and functionality of the different sections on the Amazon India app's home screen.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Open the Amazon India app.",
+                            "Action": "Observe the 'Pick up where you left off' section.",
                             "Data": "None",
-                            "Expected Result": "App opens successfully."
-                        },
+                            "Expected Result": "The section is displayed and shows recently viewed items (laptops in this case)."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify the 'Pick up where you left off' section is displayed.",
+                            "Action": "Click on any product image in the 'Shop for your home essentials' section.",
                             "Data": "None",
-                            "Expected Result": "Section is visible and contains previously viewed items."
-                        },
-                        "Step 3": {
-                            "Action": "Click on one of the items in 'Pick up where you left off'.",
-                            "Data": "Any item from the section.",
-                            "Expected Result": "The app navigates to the selected item's product page."
+                            "Expected Result": "The app navigates to the product page of the selected item."
+                        }
+                    },
+                    {
+                        "Step 4": {
+                            "Action": "Verify that the cart icon shows the correct number of items.",
+                            "Data": "3",
+                            "Expected Result": "The cart icon displays '3' indicating the number of items in the cart."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Header Information",
-                "Objective": "To validate the accuracy and functionality of information displayed in the app header.",
+                "Title": "App User Information and Location Verification",
+                "Objective": "Verify that user information and location are displayed correctly.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Open the Amazon India app.",
-                            "Data": "None",
-                            "Expected Result": "App opens successfully."
-                        },
+                            "Action": "Verify the user's name displayed in the top right corner.",
+                            "Data": "Sanskruti",
+                            "Expected Result": "The name 'Sanskruti' is displayed correctly."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify that the location information (Deliver to Sanskruti, Pune 411005) is correct.",
-                            "Data": "None",
-                            "Expected Result": "Location information matches the user's profile settings."
-                        },
+                            "Action": "Verify the user's location displayed.",
+                            "Data": "Sanskruti, Pune 411005",
+                            "Expected Result": "The user's location is correctly displayed as 'Sanskruti, Pune 411005'."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Click on the 'Account & Lists' link.",
-                            "Data": "None",
-                            "Expected Result": "The app navigates to the user's account page."
+                            "Action": "Check the language setting.",
+                            "Data": "English",
+                            "Expected Result": "The language is set to English (indicated by the US flag or 'EN')."
                         }
                     }
                 ]
@@ -151,70 +175,82 @@
         "Image": 3,
         "Test Cases": [
             {
-                "Title": "Verify Product Page Information",
-                "Objective": "To ensure all product details are correctly displayed on the JOYEKY Laptop Stand page.",
+                "Title": "Product Page Information Verification",
+                "Objective": "Verify the accuracy and completeness of information presented on the product page.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Navigate to the JOYEKY Laptop Stand product page.",
-                            "Data": "URL of the product page",
-                            "Expected Result": "The product page loads successfully."
-                        },
+                            "Action": "Check the product title.",
+                            "Data": "Laptop Stand for Desk, Adjustable Computer Stand with 360° Rotating Base...",
+                            "Expected Result": "The product title matches the expected title."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify that product title, description, images, customer reviews, price, and color options are displayed accurately.",
+                            "Action": "Verify the product images and descriptions.",
                             "Data": "None",
-                            "Expected Result": "All product information is accurate and complete."
-                        },
+                            "Expected Result": "Multiple images show the laptop stand from different angles, with a clear and accurate description provided."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Verify that clicking 'See more' under compatible models displays additional compatible models.",
-                            "Data": "None",
-                            "Expected Result": "A detailed list of compatible models is displayed."
+                            "Action": "Verify the seller information.",
+                            "Data": "JOYEKY",
+                            "Expected Result": "The seller 'JOYEKY' is correctly identified."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Add to Cart Functionality",
-                "Objective": "To ensure the 'Add to Cart' button functions correctly.",
+                "Title": "Product Page Navigation and Interaction",
+                "Objective": "Verify navigation and interaction elements on the product page.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Navigate to the JOYEKY Laptop Stand product page.",
-                            "Data": "URL of the product page",
-                            "Expected Result": "Product page loads successfully."
-                        },
+                            "Action": "Click on 'See All Buying Options'.",
+                            "Data": "None",
+                            "Expected Result": "The page displays different buying options (if available)."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Click the 'Add to Cart' button.",
+                            "Action": "Click on the 'See Similar Items' button.",
                             "Data": "None",
-                            "Expected Result": "A success message is displayed (e.g., 'Added to Cart') and the cart count increases."
-                        },
+                            "Expected Result": "The page displays similar products."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Verify that the item is added to the cart.",
+                            "Action": "Click on any of the product images.",
                             "Data": "None",
-                            "Expected Result": "The item appears in the shopping cart with the correct quantity and price."
+                            "Expected Result": "A larger view of the clicked image appears, allowing for detailed inspection."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Navigation on Product Page",
-                "Objective": "To ensure all navigational elements on the product page are functional.",
+                "Title": "Product Page Customer Reviews and Ratings",
+                "Objective": "Verify that customer reviews and ratings are displayed correctly.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Navigate to the JOYEKY Laptop Stand product page.",
-                            "Data": "URL of the product page",
-                            "Expected Result": "Product page loads successfully."
-                        },
+                            "Action": "Check the product rating (stars).",
+                            "Data": "4.7 stars",
+                            "Expected Result": "The displayed rating is 4.7 stars."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Click the 'Back to results' link.",
-                            "Data": "None",
-                            "Expected Result": "The page redirects to the search results page."
-                        },
+                            "Action": "Check the number of reviews.",
+                            "Data": "1,919 reviews",
+                            "Expected Result": "The number of reviews is correctly displayed as 1,919."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Click the 'Visit the JOYEKY Store' link.",
+                            "Action": "Verify that clicking on the star rating shows customer reviews.",
                             "Data": "None",
-                            "Expected Result": "The page redirects to the JOYEKY store page."
+                            "Expected Result": "The page displays detailed customer reviews associated with the product."
                         }
                     }
                 ]
@@ -225,70 +261,82 @@
         "Image": 4,
         "Test Cases": [
             {
-                "Title": "Verify Product Page Details and Coupon",
-                "Objective": "To verify the accuracy of product information and the functionality of the coupon.",
+                "Title": "Product Page Information Accuracy",
+                "Objective": "Verify the accuracy of product information such as price, seller details, and specifications.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Navigate to the JOYEKY Laptop Stand product page.",
-                            "Data": "URL of the product page",
-                            "Expected Result": "Product page loads successfully."
-                        },
+                            "Action": "Verify the product price.",
+                            "Data": "INR 3,114.25",
+                            "Expected Result": "The price is displayed accurately as INR 3,114.25 (or the correct price)."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify that all product information (price, description, images, reviews, etc.) is displayed correctly.",
-                            "Data": "None",
-                            "Expected Result": "All product information is accurate and complete."
-                        },
+                            "Action": "Verify seller information (name and rating).",
+                            "Data": "Jiexunke Electronic, 95% positive rating",
+                            "Expected Result": "Seller name and rating are correctly displayed."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Verify that the 10% coupon is displayed and its details are accurate. Attempt to apply coupon and note any result.",
-                            "Data": "None",
-                            "Expected Result": "Coupon details are clear.  Application results appropriately display whether coupon applies or not."
+                            "Action": "Check product specifications (brand, color, etc.).",
+                            "Data": "JOYEKY, Grey, etc.",
+                            "Expected Result": "Specifications match the product description."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Shipping Restrictions Message",
-                "Objective": "To verify that the shipping restriction message is displayed correctly when applicable.",
+                "Title": "Shipping Information and Coupon Validation",
+                "Objective": "Verify that the shipping information and coupon details are displayed correctly.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Navigate to the JOYEKY Laptop Stand product page.",
-                            "Data": "URL of the product page",
-                            "Expected Result": "Product page loads successfully."
-                        },
+                            "Action": "Check the shipping message.",
+                            "Data": "Item cannot be shipped to selected location",
+                            "Expected Result": "The message accurately reflects the shipping restriction."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify that the shipping restrictions message is displayed, indicating the item cannot be shipped to the selected location.",
-                            "Data": "None",
-                            "Expected Result": "Message is clearly visible and accurately reflects the shipping restrictions."
-                        },
+                            "Action": "Verify the coupon details (discount and terms).",
+                            "Data": "10% off",
+                            "Expected Result": "The coupon details are accurately presented."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Attempt to add the item to cart and observe result.",
+                            "Action": "Verify the alternative product suggestions.",
                             "Data": "None",
-                            "Expected Result": "Appropriate message or error is displayed if adding to cart is not possible."
+                            "Expected Result": "The page displays alternative product suggestions, if available."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Seller Information",
-                "Objective": "To verify that the seller information is displayed accurately on the product page.",
+                "Title": "Product Page Multimedia and Navigation",
+                "Objective": "Verify the functionality of multimedia content and pagination.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Navigate to the JOYEKY Laptop Stand product page.",
-                            "Data": "URL of the product page",
-                            "Expected Result": "Product page loads successfully."
-                        },
+                            "Action": "Check the availability of videos and 360° view.",
+                            "Data": "11 videos, 360° view",
+                            "Expected Result": "The specified number of videos and 360° view are accessible."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify that the seller information (Amazon.com, Jiexunke Electronic) is displayed correctly.",
-                            "Data": "None",
-                            "Expected Result": "Seller information is clearly visible and accurate."
-                        },
+                            "Action": "Navigate through product images using the page numbers or arrows.",
+                            "Data": "Page 1 of 5",
+                            "Expected Result": "The page transitions smoothly between different image views."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Verify seller rating is displayed (if available).",
-                            "Data": "None",
-                            "Expected Result": "Seller rating is visible and accurate if available."
+                            "Action": "Verify the search bar and its value.",
+                            "Data": "laptop+stand",
+                            "Expected Result": "The search bar displays 'laptop+stand'."
                         }
                     }
                 ]
@@ -299,70 +347,82 @@
         "Image": 5,
         "Test Cases": [
             {
-                "Title": "Verify Add to Cart Confirmation",
-                "Objective": "To verify that the 'Added to Cart' confirmation message and visual cue are displayed correctly after adding an item to the cart.",
+                "Title": "Recently Added Items Display",
+                "Objective": "Verify the display and functionality of the 'Recently Added to Cart' section.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Add the Grey laptop stand to the cart.",
-                            "Data": "None",
-                            "Expected Result": "Item is added to cart successfully."
-                        },
+                            "Action": "Verify the item name and details in the 'Recently Added' section.",
+                            "Data": "TPV Laptop Computer, specifications, price",
+                            "Expected Result": "The item name, specifications, and price are correctly displayed."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify that the 'Added to cart' message is displayed.",
+                            "Action": "Click 'Proceed to checkout'.",
                             "Data": "None",
-                            "Expected Result": "Confirmation message is clearly visible."
-                        },
+                            "Expected Result": "The user is redirected to the checkout page."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Verify that the confirmation checkmark icon is displayed.",
+                            "Action": "Click 'Go to Cart'.",
                             "Data": "None",
-                            "Expected Result": "Checkmark icon is visible."
+                            "Expected Result": "The user is redirected to the shopping cart page."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Item Details in Confirmation",
-                "Objective": "To ensure that the item details (image and color) in the confirmation screen are correct.",
+                "Title": "Product Recommendations Validation",
+                "Objective": "Verify that the product recommendations are displayed correctly and relevant.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Add the Grey laptop stand to the cart.",
+                            "Action": "Verify the heading 'Recommended based on your shopping trends'.",
                             "Data": "None",
-                            "Expected Result": "Item is added to cart successfully."
-                        },
+                            "Expected Result": "The heading is correctly displayed."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify that the image of the Grey laptop stand is displayed correctly.",
+                            "Action": "Check the presence of 'Sponsored' label on recommendations.",
                             "Data": "None",
-                            "Expected Result": "Correct image is displayed."
-                        },
+                            "Expected Result": "The label is present for sponsored recommendations."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Verify that the color of the laptop stand is correctly indicated as 'Grey'.",
+                            "Action": "Click on a recommended product.",
                             "Data": "None",
-                            "Expected Result": "Color is correctly identified as 'Grey'."
+                            "Expected Result": "The page navigates to the selected product's page."
                         }
                     }
                 ]
             },
             {
-                "Title": "Verify Navigation After Adding to Cart",
-                "Objective": "To verify that after adding an item to the cart, users can easily navigate to the cart or continue shopping.",
+                "Title": "Top Navigation and Cart Summary",
+                "Objective": "Verify the functionality of the top navigation bar and cart summary.",
                 "Test Steps": [
                     {
                         "Step 1": {
-                            "Action": "Add the Grey laptop stand to the cart.",
-                            "Data": "None",
-                            "Expected Result": "Item is added to cart successfully."
-                        },
+                            "Action": "Verify the cart summary and subtotal.",
+                            "Data": "$1,178.05, 6 items",
+                            "Expected Result": "The cart summary and subtotal are correctly displayed."
+                        }
+                    },
+                    {
                         "Step 2": {
-                            "Action": "Verify that a link or button is provided to view the cart.",
-                            "Data": "None",
-                            "Expected Result": "Cart link/button is clearly visible."
-                        },
+                            "Action": "Verify user location and account information.",
+                            "Data": "Sanskruti, Pune 411005, Hello, Sanskruti",
+                            "Expected Result": "The information is correctly displayed."
+                        }
+                    },
+                    {
                         "Step 3": {
-                            "Action": "Click on the cart link/button.  Verify correct page load.",
-                            "Data": "None",
-                            "Expected Result": "User is redirected to the shopping cart page successfully."
+                            "Action": "Use the search bar to search for a product.",
+                            "Data": "Any product name",
+                            "Expected Result": "The search results page loads successfully."
                         }
                     }
                 ]
