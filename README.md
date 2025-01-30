@@ -13,6 +13,9 @@ This repository contains a Colab notebook that utilizes **Google Gemini** to gen
    - Read the screenshots in Python.
    - Use the available **Gemini model** (`1.5-flash`, `1.5-flash-8b`, or `1.5-flash-002`) to generate structured test cases.
    - Generate **three test cases per image** in the required format.
+   - The coordinates of the UI elements in the screenshots
+   - The cropped images of the UI elements in the screenshots
+   - The highlighted UI elements 
 3. **Save the output** in JSON format inside the `output-files` folder.
 
 ---
